@@ -1,0 +1,57 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.left-block {
+  color: #fff;
+  margin-right: 455px;
+}
+.left-block h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 3%;
+  padding-top: 119px;
+  margin-bottom: 32px;
+}
+.left-block p {
+  font-size: 20px;
+  letter-spacing: 2%;
+  line-height: 40px;
+  color: #8E8E8E;
+  margin-bottom: 32px;
+}
+
+.icons img {
+  margin-right: 14px;
+  margin-bottom: 177px;
+}
+
+.fashion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  margin-right: 174px;
+}
+.block p {
+  margin-bottom: 32px;
+  padding-top: 125px;
+  color: #fff;
+}
+.block a {
+  margin-bottom: 32px;
+  letter-spacing: 2%;
+  line-height: 20px;
+  font-size: 20px;
+  color: #8E8E8E;
+}
+.block a:hover {
+  opacity: 0.8;
+}
+
+.right-block {
+  display: flex;
+}/*# sourceMappingURL=Footer.css.map */

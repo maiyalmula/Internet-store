@@ -1,0 +1,92 @@
+.promo {
+  width: 1720px;
+  height: 852px;
+  background-color: #F4F6F5;
+  border-radius: 59px;
+}
+
+.promo__title {
+  padding-left: 120px;
+  padding-top: 77px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 96px;
+}
+
+.promo__desc {
+  padding-left: 120px;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.promo-img img {
+  width: 871px;
+  height: 784px;
+  float: right;
+  display: flex;
+  margin-right: 80px;
+  margin-top: 68px;
+}
+
+.promo__ai {
+  display: flex;
+  padding-left: 120px;
+}
+
+.promo__fig {
+  margin-right: 40px;
+}
+
+.promo__btn a {
+  color: #fff;
+  background-color: #000;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 30px;
+  transition: 0.5;
+}
+.promo__btn a:active {
+  position: relative;
+  top: 1px;
+}
+.promo__btn a:hover {
+  opacity: 0.5;
+}
+
+.highlight {
+  position: relative;
+}
+.highlight span {
+  position: relative;
+  z-index: 1;
+}
+.highlight::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -12px;
+  bottom: 0px;
+  left: -40px;
+  right: -160px;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}
+
+.highlight--yellow {
+  position: relative;
+}
+.highlight--yellow span {
+  position: relative;
+  z-index: 1;
+}
+.highlight--yellow::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -12px;
+  bottom: 0px;
+  left: -40px;
+  right: -130px;
+  background-color: #EBD96B;
+  transform: rotate(-2deg);
+}/*# sourceMappingURL=Promo.css.map */

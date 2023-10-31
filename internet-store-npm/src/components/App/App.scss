@@ -1,0 +1,33 @@
+.conteiner-app{
+    width: 1483px;
+    margin: 0 auto;
+}
+.app-main{
+    display: flex;
+}
+.app-left{
+    margin-right: 305px;
+    h1{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 150%;
+        letter-spacing: 6%;
+        margin-bottom: 41px;
+        margin-top: 200px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: medium;
+        line-height: 34px;
+        letter-spacing: -4%;
+        margin-bottom: 45px;
+    }
+}
+.app-store{
+    img{
+        &:first-child{
+            margin-right: 20px;
+        }
+    }
+    
+}

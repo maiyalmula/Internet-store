@@ -1,0 +1,52 @@
+.hero-text{
+    font-size: 45px;
+    letter-spacing: 6%;
+    margin-top: 120px;
+    margin-bottom: 114px;
+    position: relative;
+    display: inline-block;
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 190px;
+        height: 32px;
+        z-index: -1;
+
+        background-image: url(./images/line.png);
+    }
+}
+.section-girl{
+    width: 484px;
+    height: 704px;
+    border-radius: 20px;
+    
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    float: right;
+
+}
+.hero-section-props{
+    width: 100%;
+    display: flex;
+
+}
+.section{
+    img{
+        margin-right: 131px;
+    }
+    h1{
+        font-size: 32px;
+        margin-top: 28px;
+        margin-bottom: 7px;
+    }
+    p{
+        margin-bottom: 143px;
+        color: #7F7F7F;
+    }
+}
+    

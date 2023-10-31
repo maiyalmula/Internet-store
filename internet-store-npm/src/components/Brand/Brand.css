@@ -1,0 +1,20 @@
+.conteiner-brand {
+  width: 1572px;
+  margin: 0 auto;
+}
+
+.brand {
+  width: 100%;
+  background-color: #EBD96B;
+  margin-top: 63px;
+}
+.brand img {
+  margin-top: 62px;
+  margin-bottom: 62px;
+  padding-right: 120px;
+}
+
+.brand-flex {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=Brand.css.map */

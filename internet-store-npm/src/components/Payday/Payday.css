@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.payday {
+  display: flex;
+}
+
+.payday-img img {
+  width: 991px;
+  height: 968px;
+}
+
+.payday-right {
+  padding-left: 86px;
+  background-image: url(./images/Payday-bg.png);
+  height: 968px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.payday-right h1 {
+  padding-top: 140px;
+  padding-right: 249px;
+  margin-bottom: 33px;
+  display: flex;
+  font-size: 111px;
+  font-weight: 900;
+  line-height: 137px;
+}
+.payday-right p {
+  font-size: 36px;
+  font-weight: medium;
+  margin-bottom: 40px;
+}
+.payday-right h3 {
+  font-size: 36px;
+  letter-spacing: 2%;
+  margin-bottom: 10px;
+}
+.payday-right a {
+  color: #fff;
+  background-color: #000;
+  padding: 26px 51px 26px 51px;
+  border-radius: 8.14px;
+  margin-bottom: 155px;
+}/*# sourceMappingURL=Payday.css.map */

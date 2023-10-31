@@ -1,0 +1,45 @@
+.favourites h1 {
+  margin-top: 190px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sex {
+  margin-bottom: 220px;
+  margin-top: 118px;
+}
+.sex:first-child {
+  margin-right: 48px;
+}
+.sex h4 {
+  font-size: 32px;
+  margin-top: 28px;
+  margin-bottom: 7px;
+}
+.sex p {
+  font-size: 24px;
+  color: #7F7F7F;
+}
+
+.content {
+  display: flex;
+}
+
+.arrow {
+  float: right;
+}
+
+.fav-h1 {
+  position: relative;
+  display: inline-block;
+}
+.fav-h1::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 190px;
+  height: 32px;
+  z-index: -1;
+  background-image: url(./images/line.png);
+}/*# sourceMappingURL=Favourites.css.map */
