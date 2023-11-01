@@ -16,10 +16,10 @@ function Footer(){
                 <div className="right-block">
                     <div className="block">
                         <p>Company</p>
-                        <a className="link" href="">About</a> <br />
-                        <a className="link" href="">Contact us</a><br />
-                        <a href="">Support</a><br />
-                        <a href="">Careers</a>  <br />          
+                        <a href="">About</a> <br />
+                        <a href="">Contact us</a> <br />
+                        <a href="">Support</a> <br />
+                        <a href="">Careers</a> <br />        
                     </div>
                     <div className="block">
                         <p>Quick Link</p>
