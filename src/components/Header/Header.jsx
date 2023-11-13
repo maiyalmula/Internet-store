@@ -10,7 +10,7 @@ function Header(){
                     <a href="#!">Fasion</a>
                 </div>
                 <div className="nav-right">
-                    <a href="">CATALOGUE</a>
+                    <a href="">CATALOGU</a>
                     <a href="">FASHION</a>
                     <a href="">FAVOURITE</a>
                     <a href="">LIFESTYLE</a>
